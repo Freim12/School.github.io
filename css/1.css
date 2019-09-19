@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('https://image.freepik.com/free-photo/_3248-1950.jpg');
+	background-image: local;
+	background-size: cover;
+}
+
+header{
+	background-color: #a5b0a8;
+	display: flex;
+	position: fixed;
+	width: 100%;
+}
+
+header a{
+	margin: 2.5% 0 2.5% 80%;
+	text-decoration: none;
+	color: #21b048;
+}
+
+header img{
+	width: 10%;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+	cursor: pointer;
+}
+
+.container{
+	display: flex;
+	margin-left: 15%;
+	padding-top: 10%;
+}
+
+.comment p{
+	font-size: 200%;
+	background-color: #cadbcf;
+	opacity: 0.7;
+}
+
+.emoji div h1{
+	font-size: 1000%;
+	cursor: pointer;
+}
+
+.emoji{
+	text-align: center;
+	margin: 0 10% 0 10%;
+}
+
+.emoji .icon{
+	margin-bottom: 40%;
+}
+
+.comment{
+	display: none;
+	position: absolute;
+	width: 17.7%;
+}
+
+.icon:focus .comment{
+	 display: block;
+}
